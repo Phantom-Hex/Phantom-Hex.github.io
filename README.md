@@ -1,1 +1,2 @@
-# Phantom-Hex.github.io
+# Phantom-Hex
+Github Pages site.
