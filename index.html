@@ -10,7 +10,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
         crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Iceland|Quantico:700|Russo+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Iceland|Russo+One|Quantico:700&effect=shadow-multiple|3d-float|static" rel="stylesheet">
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -24,7 +24,7 @@
 <body class="text-light bg-dark">
     <header class="text-center" id="Home">
         <img src="img/PH_Logo_blank.png" alt="Phantom-Hex Logo" width="300px" class="pt-4">
-        <p class="display-4" style="font-family: Quantico;">PHANTOM HEX</p>
+        <p class="display-4 font-effect-3d-float" style="font-family: Russo One, serif;">PHANTOM HEX</p>
     </header>
     <div class="sticky-top container bg-dark rounded">
         <nav class="navbar navbar-expand-md navbar-dark">
@@ -33,7 +33,7 @@
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <nav class="collapse navbar-collapse justify-content-md-center" id="NavBarToggle">
+            <nav class="collapse navbar-collapse justify-content-md-center lead" id="NavBarToggle">
                 <ul class="nav nav-pills">
                     <li class="nav-item">
                         <a class="nav-link" href="#Home" role="button">Home</a>
@@ -103,18 +103,25 @@
         <section id="Services" class="container py-4 text-center">
             <h2 class="text-center display-4 py-3">What's offered?</h2>
             <div class="row text-center lead">
-                <div class="col-md">
-                    <h4>Software Development</h4>
-                    <p>Got an idea that needs some programming behind it? Software can be the difference between a botched project
-                        or something entirely awesome acting as the brains behind your hardware.</p>
+                <div class="col-md-6 col-xl-3 my-3">
+                    <i class="fab fa-connectdevelop fa-4x"></i>
+                    <h4 class="py-4">Software Development</h4>
+                    <p class="text-justify">Got an idea that needs some programming behind it? Software can be the difference between a botched project or something entirely awesome acting as the brains behind your hardware.</p>
                 </div>
-                <div class="col-md">
-                    <h4>Photography</h4>
-                    <p>Need something to look better? Advanced photography and graphic design services are at your disposal.</p>
+                <div class="col-md-6 col-xl-3 my-3">
+                    <i class="fas fa-camera-retro fa-4x"></i>
+                    <h4 class="py-4">Photography</h4>
+                    <p class="text-justify">Need pictures taken, video shot, or just want images to look better? Photography and graphic design services are at your disposal.</p>
                 </div>
-                <div class="col-md">
-                    <h4>Copywriting</h4>
-                    <p>Sometimes you need some words and print to put on those open spaces of yours. Those spaces will get filled.</p>
+                <div class="col-md-6 col-xl-3 my-3">
+                    <i class="fas fa-laptop fa-4x"></i>
+                    <h4 class="py-4">Copywriting</h4>
+                    <p class="text-justify">Sometimes you need some words and print to put on those open spaces of yours. Those spaces will get filled with quality content and stories.</p>
+                </div>
+                <div class="col-md-6 col-xl-3 my-3">
+                    <i class="fas fa-chart-pie fa-4x"></i>
+                    <h4 class="py-4">Data Analytics</h4>
+                    <p class="text-justify">You've got quite a bit of data there, don't ya? Willing to bet it can be presented better for the masses, right?</p>
                 </div>
             </div>
         </section>
@@ -136,7 +143,7 @@
             <a href="http://tumblr.com">
                 <i class="fab fa-tumblr-square fa-3x mx-auto"></i>
             </a>
-            <blockquote style="font-size:0.7rem;" class="blockquote my-auto">&copy2017 - Phantom-Hex</blockquote>
+            <blockquote style="font-size:0.7rem;" class="blockquote my-auto">&copy2017 - Phantom Hex</blockquote>
         </footer>
     </section>
     <script>
