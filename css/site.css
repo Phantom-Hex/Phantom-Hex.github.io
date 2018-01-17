@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Russo+One|Oswald:300&effect=shadow-multiple|3d-float|static");
+
+body {
+    font-family: 'Oswald','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    background-color: rgb(2, 2, 62);
+}
+
+footer {
+    font-family: 'Yanone Kaffeesatz','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    margin: inherit;
+    padding: inherit;
+}

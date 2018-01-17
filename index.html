@@ -10,7 +10,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
         crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Iceland|Russo+One|Quantico:700&effect=shadow-multiple|3d-float|static" rel="stylesheet">
+    <link rel="stylesheet" href="css/site.css">
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -56,8 +56,8 @@
     </div>
 
     <!-- Other sections -->
-    <section style="background-color: rgb(4, 4, 87);" class="container-fluid">
-        <section id="Home" class="container pt-5 px-5 text-center">
+    <main class="container-fluid">
+        <section id="Home" class=" pt-5 px-5 text-center">
             <h2 class="display-4">Welcome!</h2>
             <p class="lead">This is the GitHub page for Phantom Hex, a relatively new developer. Mobile and web applications are the main
                 focus, but not the only things created here. See some of the projects being worked on below!
@@ -127,14 +127,15 @@
                 </div>
             </div>
         </section>
-        <section class="text-center container jumbotron text-dark">
+        <section class="text-center jumbotron container text-dark">
             <h2 class="display-4">Want to work together?</h2>
             <p class="lead">If you care to collaborate on any projects involving C#, React, Python, iOS, check out our
                 <a href="http://github.com/Phantom-Hex">GitHub</a> and send a message.</p>
         </section>
-        <!--  Footer -->
         <hr>
-        <footer class="container text-center">
+    </main>
+        <!--  Footer -->
+        <footer class="text-center">
             <p class="text-muted"></p>
             <a href="http://facebook.com">
                 <i class="fab fa-facebook-square fa-3x mx-auto"></i>
@@ -145,9 +146,8 @@
             <a href="http://tumblr.com">
                 <i class="fab fa-tumblr-square fa-3x mx-auto"></i>
             </a>
-            <blockquote style="font-size:0.7rem;" class="blockquote my-auto">&copy2017 - Phantom Hex</blockquote>
+            <blockquote class="blockquote small">&copy; 2018 - Phantom Hex</blockquote>
         </footer>
-    </section>
     <script>
         $('body').scrollspy({
             target: '#NavBarToggle'
