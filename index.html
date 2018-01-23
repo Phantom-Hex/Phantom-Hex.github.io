@@ -10,6 +10,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
         crossorigin="anonymous">
+        <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/site.css">
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -19,15 +20,16 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
         crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+    <script src="js/site.js"></script>
 </head>
 
 <body class="text-light bg-dark">
     <header class="text-center" id="Home">
-        <img src="img/PH_Logo_blank.png" alt="Phantom-Hex Logo" width="300px" class="pt-4">
+        <img id="Logo" src="img/PH_Logo_blank.png" alt="Phantom-Hex Logo" width="300px" class="pt-4 animated fadeInDown">
         <h1 class="font-effect-3d-float" style="font-family: Russo One, serif;">PHANTOM HEX
         </h1>
     </header>
-    <div class="sticky-top container bg-dark rounded">
+    <div class="sticky-top container bg-dark rounded animated fadeIn">
         <nav class="navbar navbar-expand-md navbar-dark">
             <!-- <a class="navbar-brand" href="#Home"></a> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavBarToggle" aria-controls="NavBarToggle"
@@ -47,9 +49,9 @@
                     </li>
                 </ul>
                 <!-- <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form> -->
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form> -->
             </nav>
         </nav>
     </div>
