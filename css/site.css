@@ -9,6 +9,12 @@ h1, h2, h3, h4 {
     font-weight: 400;
     font-variant: small-caps;
 }
+
+nav {
+    font-family: 'Oswald', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+}
+
 main{
     background-color: rgb(2, 2, 62);
 }
