@@ -8,7 +8,7 @@
     <title>Phantom-Hex</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <!-- CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/site.css">
     <!-- Scripts -->
@@ -41,7 +41,7 @@
                         <a class="nav-link py-0" href="#Home" role="button">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link py-0" href="#Projects" role="button">Projects</a>
+                        <a class="nav-link py-0" href="#projects" role="button">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link py-0" href="#Services" role="button">Services</a>
@@ -59,7 +59,101 @@
                 are updated weekly.</p>
         </section>
         <!-- Current Projects -->
-        <section id="Projects" class="text-center">
+        <div id="projects" class="bg-dark">
+            <div class="card bg-dark">
+                <div class="card-header" id="headingOne">
+                    <h3 class="mb-0">
+                        <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <small class="display-4">Cosplayr</small>
+                        </a>
+                    </h3>
+                </div>
+                <div id="collapseOne" class="collapse bg-secondary" aria-labelledby="headingOne" data-parent="#projects">
+                    <div class="card-body row col-8 mx-auto">
+                        <div class="col-md-6">
+                            <a href="http://github.com/Phantom-Hex/Cosplayr">
+                                <img src="img/Cosplayr.png" alt="Cosplayr" class="img-fluid rounded">
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <h2>Cosplayr</h2>
+                            <p>A social media platform built on iOS to [hopefully] revolutionize how cosplay contests are run
+                                around the country.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-dark">
+                <div class="card-header" id="headingTwo">
+                    <h3 class="mb-0">
+                        <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <small class="display-4">Roulette</small>
+                        </a>
+                    </h3>
+                </div>
+                <div id="collapseTwo" class="collapse bg-secondary" aria-labelledby="headingTwo" data-parent="#projects">
+                    <div class="card-body row col-8 mx-auto">
+                        <div class="col-md-6">
+                            <a href="http://phantom-hex.github.io/Roulette">
+                                <img src="img/Roulette.png" alt="Roulette" class="img-fluid rounded">
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <h2>Roulette</h2>
+                            <p>A podcast site template utilizing Bootstrap 4 and AngularJS.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-dark">
+                <div class="card-header" id="headingThree">
+                    <h3 class="mb-0">
+                        <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <small class="display-4">Overclocked Fitness</small>
+                        </a>
+                    </h3>
+                </div>
+                <div id="collapseThree" class="collapse bg-secondary" aria-labelledby="headingThree" data-parent="#projects">
+                    <div class="card-body row col-8 mx-auto">
+                        <div class="col-md-6">
+                            <a href="http://github.com/Phantom-Hex/Overclocked-Fitness">
+                                <img src="img/Overclocked-Fitness.png" alt="Overclocked Fitness" class="img-fluid rounded">
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <h2>Overclocked Fitness</h2>
+                            <p>A template for a fitness-centric website written in PHP and HTML5.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-dark">
+                <div class="card-header" id="headingFour">
+                    <h3 class="mb-0">
+                        <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <small class="display-4">Serial Flakes</small>
+                        </a>
+                    </h3>
+                </div>
+                <div id="collapseFour" class="collapse bg-secondary" aria-labelledby="headingFour" data-parent="#projects">
+                    <div class="card-body row col-8 mx-auto">
+                        <div class="col-md-6">
+                            <a href="http://github.com/Phantom-Hex/SerialF">
+                                <img src="img/Serial-Flakes.png" alt="Serial Flakes" class="img-fluid rounded">
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <h2>Serial Flakes</h2>
+                            <p>An inventory application built on Python/Django with infinite expandability for multiple types
+                                of devices and items.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <section id="Projects" class="text-center">
             <h2 class="display-4 pt-5">Current Projects</h2>
             <div class="row justify-content-md-center no-gutters">
                 <div class="row col-xl-3 no-gutters p-xl-2">
@@ -111,30 +205,18 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- Services Spot -->
         <section id="Services" class="container py-4 text-center">
             <h2 class="text-center display-4 py-3">What's offered?</h2>
-            <div class="row text-center">
-                <div class="col-md-6 col-xl-3 my-3">
+            <div class="row text-center mx-auto">
+                <div class="col-md-6 col-xl-3 my-3 mx-auto">
                     <i class="fas fa-code fa-4x"></i>
                     <h2 class="py-3">Web App Development</h2>
                     <p>Got an idea that needs some programming behind it? A web application can be a great way to interact with
                         customers and clients. Let us figure out an online solution for you.</p>
                 </div>
-                <div class="col-md-6 col-xl-3 my-3">
-                    <i class="fas fa-camera-retro fa-4x"></i>
-                    <h2 class="py-3">Photography</h2>
-                    <p>Need pictures taken, video shot, or just want images to look better? Photography and graphic design services
-                        are at your disposal.</p>
-                </div>
-                <div class="col-md-6 col-xl-3 my-3">
-                    <i class="fas fa-laptop fa-4x"></i>
-                    <h2 class="py-3">Copywriting</h2>
-                    <p>Sometimes you need some words and print to put on those open spaces of yours. Those spaces will get filled
-                        with quality content and stories.</p>
-                </div>
-                <div class="col-md-6 col-xl-3 my-3">
+                <div class="col-md-6 col-xl-3 my-3 mx-auto">
                     <i class="fas fa-chart-pie fa-4x"></i>
                     <h2 class="py-3">Data Analytics</h2>
                     <p>You've got quite a bit of data there, don't ya? Willing to bet it can be presented better for the masses,
@@ -154,7 +236,7 @@
     <footer>
         <div class="container text-center">
             <div class="row text-md-left">
-                <div class="col-sm-6 col-lg-4 py-4">
+                <div class="col-sm-6 col-lg-4 py-3">
                     <h4>
                         Phantom Hex [on GitHub]
                         <br>
@@ -170,12 +252,12 @@
                         Online Hours
                     </h4>
                     <abbr>
-                        M - Th
-                        <br /> 900 - 2000 EST
+                        T - Th
+                        <br /> 1000 - 2000 EST
                     </abbr>
                 </div>
 
-                <div class="col-md col-lg-4 py-4 text-md-center text-lg-right">
+                <div class="col-md col-lg-4 py-3 text-md-center text-lg-right">
                     <h4>Follow us on social media!</h4>
                     <p>
                         <a href="https://www.facebook.com/Pages/Phantom-Hex">
