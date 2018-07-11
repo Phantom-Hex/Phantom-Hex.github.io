@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/site.css">
     <!-- Scripts -->
+    <script src="js/site.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
@@ -28,14 +29,14 @@
         <h1 class="font-effect-3d-float" style="font-family: Russo One, serif;">PHANTOM HEX
         </h1>
     </header>
-    <div class="sticky-top container bg-dark rounded animated fadeIn">
-        <nav class="navbar navbar-expand-md navbar-dark">
+    <div class="sticky-top container px-auto animated fadeIn">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark rounded">
             <!-- <a class="navbar-brand" href="#Home"></a> -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavBarToggle" aria-controls="NavBarToggle"
+            <button class="navbar-toggler btn-sm" type="button" data-toggle="collapse" data-target="#NavBarToggle" aria-controls="NavBarToggle"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <nav class="collapse navbar-collapse justify-content-md-center lead" id="NavBarToggle">
+            <nav class="navbar-collapse justify-content-md-around collapse lead" id="NavBarToggle">
                 <ul class="nav nav-pills">
                     <li class="nav-item">
                         <a class="nav-link py-0" href="#Home" role="button">Home</a>
@@ -57,17 +58,17 @@
             <p class="lead">This is the GitHub page for Phantom Hex, a relatively new developer. Web applications are the main focus, but not the only things created here. See some of the projects being worked on below! All repositories are updated weekly.</p>
         </section>
         <!-- Current Projects -->
-        <div id="projects" class="bg-dark text-center my-5">
+        <div id="projects" class="bg-dark text-center container mx-auto">
             <!-- Cosplayr -->
-            <div class="card bg-dark">
+            <div class="card bg-dark pt-3">
                 <div class="card-header" id="headingOne">
                     <h3 class="mb-0">
                         <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            <small class="display-4">Cosplayr</small>
+                            <h2>Cosplayr</h2>
                         </a>
                     </h3>
                 </div>
-                <div id="collapseOne" class="collapse bg-secondary" aria-labelledby="headingOne" data-parent="#projects">
+                <div id="collapseOne" class="collapse bg-secondary rounded" aria-labelledby="headingOne" data-parent="#projects">
                     <div class="card-body row col-8 mx-auto">
                         <div class="col-md-6">
                             <a href="http://github.com/Phantom-Hex/Cosplayr">
@@ -88,11 +89,11 @@
                 <div class="card-header" id="headingTwo">
                     <h3 class="mb-0">
                         <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <small class="display-4">Roulette</small>
+                            <h2>Roulette</h2>
                         </a>
                     </h3>
                 </div>
-                <div id="collapseTwo" class="collapse bg-secondary" aria-labelledby="headingTwo" data-parent="#projects">
+                <div id="collapseTwo" class="collapse bg-secondary rounded" aria-labelledby="headingTwo" data-parent="#projects">
                     <div class="card-body row col-8 mx-auto">
                         <div class="col-md-6">
                             <a href="http://phantom-hex.github.io/Roulette">
@@ -111,11 +112,11 @@
                 <div class="card-header" id="headingThree">
                     <h3 class="mb-0">
                         <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <small class="display-4">Overclocked Fitness</small>
+                            <h2>Overclocked Fitness</h2>
                         </a>
                     </h3>
                 </div>
-                <div id="collapseThree" class="collapse bg-secondary" aria-labelledby="headingThree" data-parent="#projects">
+                <div id="collapseThree" class="collapse bg-secondary rounded" aria-labelledby="headingThree" data-parent="#projects">
                     <div class="card-body row col-8 mx-auto">
                         <div class="col-md-6">
                             <a href="http://github.com/Phantom-Hex/Overclocked-Fitness">
@@ -130,15 +131,15 @@
                 </div>
             </div>
             <!-- Serial -->
-            <div class="card bg-dark">
+            <div class="card bg-dark pb-3">
                 <div class="card-header" id="headingFour">
                     <h3 class="mb-0">
                         <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            <small class="display-4">Serial Flakes</small>
+                            <h2>Serial Flakes</h2>
                         </a>
                     </h3>
                 </div>
-                <div id="collapseFour" class="collapse bg-secondary" aria-labelledby="headingFour" data-parent="#projects">
+                <div id="collapseFour" class="collapse bg-secondary rounded" aria-labelledby="headingFour" data-parent="#projects">
                     <div class="card-body row col-8 mx-auto">
                         <div class="col-md-6">
                             <a href="http://github.com/Phantom-Hex/SerialF">
@@ -217,12 +218,6 @@
             <p class="small">&copy; 2018 - Phantom Hex</p>
         </div>
     </footer>
-    <script>
-        $('body').scrollspy({
-            target: '#NavBarToggle',
-            // offset: -40
-        })
-    </script>
 </body>
 
 </html>
