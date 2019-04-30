@@ -1,28 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto|Oswald:400|Russo+One&effect=shadow-multiple|3d-float|static");
 
-body {
-    font-family: 'Roboto','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: relative;
+#left-side, #right-side {
+    min-height: 100vh;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Oswald', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 400;
-    font-variant: small-caps;
+#left-side {
+    background-color: white;
 }
 
-nav {
-    font-family: 'Oswald', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 40px;
+#right-side {
+    background-color: black;
+    font-family: 'Oswald','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-main{
-    background-color: rgb(2, 2, 62);
-}
-
-/* Specific Points */
-
-#projects {
-    /* padding: 5px; */
-    border-radius: .5rem;
+#right-side h1 {
+    font-family: 'Russo One','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

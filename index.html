@@ -6,218 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Phantom-Hex</title>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <!-- CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/site.css">
     <!-- Scripts -->
     <script src="js/site.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
     <!-- <script src="js/site.js"></script> -->
 </head>
 
-<body class="text-light bg-dark">
-    <header class="text-center" id="Home">
-        <img id="Logo" src="img/PH_Logo_blank.png" alt="Phantom-Hex Logo" width="300px" class="pt-4 animated fadeInDown">
-        <h1 class="font-effect-3d-float" style="font-family: Russo One, serif;">PHANTOM HEX
-        </h1>
-    </header>
-    <div class="sticky-top container px-auto animated fadeIn">
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark rounded">
-            <!-- <a class="navbar-brand" href="#Home"></a> -->
-            <button class="navbar-toggler btn-sm" type="button" data-toggle="collapse" data-target="#NavBarToggle" aria-controls="NavBarToggle"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <nav class="navbar-collapse justify-content-md-around collapse lead" id="NavBarToggle">
-                <ul class="nav nav-pills">
-                    <li class="nav-item">
-                        <a class="nav-link py-0" href="#Home" role="button">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link py-0" href="#projects" role="button">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link py-0" href="#Services" role="button">Services</a>
-                    </li>
-                </ul>
-            </nav>
-        </nav>
-    </div>
-    <main style="background: black;">
-        <!-- Other sections -->
-        <section id="Home" class="container py-5 text-center">
-            <h2 class="display-4">Welcome!</h2>
-            <p class="lead">This is the GitHub page for Phantom Hex, a relatively new developer. Web applications are the main focus, but not the only things created here. See some of the projects being worked on below! All repositories are updated weekly.</p>
+<body class="text-light bg-dark container-fluid">
+    <!-- <header class="text-center" id="Home"></header> -->
+    <main class="row text-center">
+        <section id="left-side" class="col-md-6 d-md-flex d-none align-items-center bg-black">
+            <div class="animated fadeInRight slow"><img src="./img/PH_Logo_blank.png" class="img-fluid" width="75%"></div>
         </section>
-        <!-- Current Projects -->
-        <div id="projects" class="bg-dark text-center container mx-auto">
-            <!-- Cosplayr -->
-            <div class="card bg-dark pt-3">
-                <div class="card-header" id="headingOne">
-                    <h3 class="mb-0">
-                        <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            <h2>Cosplayr</h2>
-                        </a>
-                    </h3>
-                </div>
-                <div id="collapseOne" class="collapse bg-secondary rounded" aria-labelledby="headingOne" data-parent="#projects">
-                    <div class="card-body row col-8 mx-auto">
-                        <div class="col-md-6">
-                            <a href="http://github.com/Phantom-Hex/Cosplayr">
-                                <img src="img/Cosplayr.png" alt="Cosplayr" class="img-fluid rounded">
-                            </a>
-                        </div>
-                        <div class="col-md-6">
-                            <h2>Cosplayr</h2>
-                            <p>A social media platform built on iOS to [hopefully] revolutionize how cosplay contests are run
-                                around the country.
-                            </p>
-                        </div>
+        <section id="right-side" class="col-md-6 d-flex align-items-center">
+            <div class="mx-auto">
+                <h1 class="text-uppercase">Phantom Hex</h1>
+                    <p>Yet another small development studio. <br /> We'll make [your] web applications.</p>
+                    <div>
+                        <a href="#"><i class="fab fa-linkedin fa-2x"> </i></a> &nbsp;
+                        <a href="http://github.com/phantom-hex"><i class="fab fa-github-square fa-2x"> </i></a> &nbsp;
+                        <a href="mailto:admin@phantomhex.com"><i class="fas fa-envelope fa-2x"></i></a>
                     </div>
-                </div>
             </div>
-            <!-- Roulette -->
-            <div class="card bg-dark">
-                <div class="card-header" id="headingTwo">
-                    <h3 class="mb-0">
-                        <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <h2>Roulette</h2>
-                        </a>
-                    </h3>
-                </div>
-                <div id="collapseTwo" class="collapse bg-secondary rounded" aria-labelledby="headingTwo" data-parent="#projects">
-                    <div class="card-body row col-8 mx-auto">
-                        <div class="col-md-6">
-                            <a href="http://phantom-hex.github.io/Roulette">
-                                <img src="img/Roulette.png" alt="Roulette" class="img-fluid rounded">
-                            </a>
-                        </div>
-                        <div class="col-md-6">
-                            <h2>Roulette</h2>
-                            <p>A podcast site template utilizing Bootstrap 4 and AngularJS.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Overclocked -->
-            <div class="card bg-dark">
-                <div class="card-header" id="headingThree">
-                    <h3 class="mb-0">
-                        <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <h2>Overclocked Fitness</h2>
-                        </a>
-                    </h3>
-                </div>
-                <div id="collapseThree" class="collapse bg-secondary rounded" aria-labelledby="headingThree" data-parent="#projects">
-                    <div class="card-body row col-8 mx-auto">
-                        <div class="col-md-6">
-                            <a href="http://github.com/Phantom-Hex/Overclocked-Fitness">
-                                <img src="img/Overclocked-Fitness.png" alt="Overclocked Fitness" class="img-fluid rounded">
-                            </a>
-                        </div>
-                        <div class="col-md-6">
-                            <h2>Overclocked Fitness</h2>
-                            <p>A template for a fitness-centric website written in PHP and HTML5.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Serial -->
-            <div class="card bg-dark pb-3">
-                <div class="card-header" id="headingFour">
-                    <h3 class="mb-0">
-                        <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            <h2>Serial Flakes</h2>
-                        </a>
-                    </h3>
-                </div>
-                <div id="collapseFour" class="collapse bg-secondary rounded" aria-labelledby="headingFour" data-parent="#projects">
-                    <div class="card-body row col-8 mx-auto">
-                        <div class="col-md-6">
-                            <a href="http://github.com/Phantom-Hex/SerialF">
-                                <img src="img/Serial-Flakes.png" alt="Serial Flakes" class="img-fluid rounded">
-                            </a>
-                        </div>
-                        <div class="col-md-6">
-                            <h2>Serial Flakes</h2>
-                            <p>An inventory application built on Python/Django with infinite expandability for multiple types
-                                of devices and items.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Services Spot -->
-        <section id="Services" class="container my-5 text-center">
-            <div class="row text-center col-8 mx-auto">
-                <div class="col-md-6 col-xl-6 mx-auto py-5">
-                    <i class="fas fa-code fa-4x"></i>
-                    <h2 class="py-3">Web App Development</h2>
-                    <p>Got an idea that needs some programming behind it? A web application can be a great way to interact with
-                        customers and clients. Let us figure out an online solution for you.</p>
-                </div>
-                <div class="col-md-6 col-xl-6 mx-auto py-5">
-                    <i class="fas fa-chart-pie fa-4x"></i>
-                    <h2 class="py-3">Data Analytics</h2>
-                    <p>You've got quite a bit of data there, don't ya? Willing to bet it can be presented better for the masses,
-                        right?
-                    </p>
-                </div>
-            </div>
-        </section>
-        <!-- Collaborator Section -->
-        <section class="text-center jumbotron text-dark">
-            <h2 class="display-4">Want to work together?</h2>
-            <p class="lead">If you care to collaborate on any projects involving C#, React/Redux, Python, iOS, check out our
-                <a href="http://github.com/Phantom-Hex">GitHub</a> and send a message.</p>
         </section>
     </main>
-    <!--  Footer -->
-    <footer>
-        <div class="container text-center">
-            <div class="row text-md-left">
-                <div class="col-sm-6 col-lg-4 py-3">
-                    <h4>
-                        Phantom Hex [on GitHub]
-                        <br>
-                        <small class="text-muted">@Phantom-Hex</small>
-                    </h4>
-                </div>
-                <div class="col-sm-6 col-lg-4 py-3 text-md-right text-lg-center">
-                    <h4>
-                        Online Hours
-                    </h4>
-                    <abbr>
-                        T - Th
-                        <br /> 1000 - 2000 EST
-                    </abbr>
-                </div>
-                <div class="col-md col-lg-4 py-3 text-md-center text-lg-right">
-                    <h4>Follow us on social media!</h4>
-                        <a href="https://www.facebook.com/Pages/Phantom-Hex">
-                            <i class="fab fa-facebook fa-2x"></i>
-                        </a>&nbsp;
-                        <a href="https://www.twitter.com/Phantom-Hex">
-                            <i class="fab fa-twitter fa-2x"></i>
-                        </a>&nbsp;
-                        <a href="https://github.com/phantom-hex">
-                            <i class="fab fa-github fa-2x"></i>
-                        </a>
-                </div>
-            </div>
-            <hr>
-            <p class="small">&copy; 2018 - Phantom Hex</p>
-        </div>
-    </footer>
+    <!-- <footer></footer> -->
+
 </body>
 
 </html>
